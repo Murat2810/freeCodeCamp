@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+
+  background-color: rgb(69, 69, 156);
+
+  color: rgba(255, 255, 255, 0.76);
+}
+
+h1,
+header > p {
+  text-align: center;
+}
+
+form {
+  margin: auto;
+}
+
+label,
+select,
+header,
+fieldset > p {
+  display: block;
+  padding: 5px 0;
+}
+
+#description {
+}
+
+#survey-form {
+  width: 70vw;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="submit"] {
+  width: 70%;
+  float: right;
+}
+input[type="checkbox"] {
+  vertical-align: auto;
+}
+#message {
+  display: block;
+  padding: 5px 0;
+  margin-right: 30%;
+  width: 70%;
+  height: 4rem;
+}
+#submit {
+  display: block;
+  margin-top: 1rem;
+  margin-right: 30%;
+}
+fieldset {
+  border-radius: 10px;
+}
+input,
+select,
+textarea {
+  border-radius: 10px;
+}
+
+select:hover {
+  background-color: rgb(150, 150, 192);
+  transition: background-color 0.75s linear;
+}
