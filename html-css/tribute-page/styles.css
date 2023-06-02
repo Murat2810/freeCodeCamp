@@ -19,8 +19,8 @@ figure {
   margin: 0.3rem 0.8rem;
 }
 
-img {
-  width: 60vw;
+#image {
+  max-width: 100%;
   height: auto;
 }
 
@@ -29,17 +29,20 @@ figcaption {
 }
 
 div {
-  width: 50vw;
-    margin:auto;
+  width: calc(50vw - 5vw);
+  margin: auto;
 }
 
-ul{
-    padding: 0;
+
+
+ul {
+  padding: 0;
 }
 span {
   font-weight: bold;
 }
-li, ul ~ p{
-    text-align: left;
-    margin: 1rem;
+li,
+ul ~ p {
+  text-align: left;
+  margin: 1rem;
 }
